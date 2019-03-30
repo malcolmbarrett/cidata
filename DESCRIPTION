@@ -1,12 +1,24 @@
 Package: cidata
-Title: What the Package Does (One Line, Title Case)
+Title: Data from Causal Inference by Hernán and Robins
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Malcolm",
+           family = "Barrett",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "malcolmbarrett@gmail.com")
+Description: Includes 4 data sets used in Causal Inference by Hernán and Robins: 
+  `nhefs`, a cleaned version of NHEFS data, `nhefs_complete`, a complete case 
+  version of `nhefs`, `nhefs_codebook`, the codebook for NHEFS, and `greek_data`,
+  the data from Table 2.2 used in Chapter 13.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    tibble
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Suggests: 
+    dplyr,
+    tidyr,
+    haven,
+    readxl
