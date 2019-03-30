@@ -21,7 +21,7 @@ cidata is a data package for R that includes 4 data sets used in Causal Inferenc
 You can install cidata from GitHub with:
 
 ``` r
-remotes::install_github("malcolmbarrett/cidata")
+remotes::install_github("malcolmbarrett/cidata") 
 ```
 
 ## Example

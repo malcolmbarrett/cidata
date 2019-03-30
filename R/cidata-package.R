@@ -1,3 +1,5 @@
+#' @importFrom tibble tibble
+
 #' @keywords internal
 #' cidata: A Data Package for Causal Inference by Hernán and Robins
 #'
