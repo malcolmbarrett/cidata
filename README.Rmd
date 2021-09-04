@@ -12,29 +12,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# cidata
 
-cidata is a data package for R that includes 4 data sets used in Causal Inference by Hernán and Robins: `nhefs`, a cleaned version of NHEFS data, `nhefs_complete`, a complete case version of `nhefs`, `nhefs_codebook`, the codebook for NHEFS, and `greek_data`, the data from Table 2.2 used in Chapter 13.
+# cidata: superceded
 
-## Installation
-
-You can install cidata from GitHub with:
-
-``` r
-remotes::install_github("malcolmbarrett/cidata") 
-```
-
-## Example
-
-cidata loads a cleaned version of the NHEFS data used in Causal Inference, `nhefs`. There is also a complete case version, `nhefs_complete`, and a codebook for the variables in NHEFS, `nhefs_codebook`.
-
-```{r nhefs}
-library(cidata)
-nhefs
-```
-
-cidata also loads the data in Table 2.2 of Causal Inference, which is used as an example in Chapter 13.
-
-```{r greek}
-greek_data
-```
+The cidata package is now superceded by the [causaldata](https://github.com/NickCH-K/causaldata) package. Please use that package for future work.
